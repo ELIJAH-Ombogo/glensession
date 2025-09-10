@@ -2,7 +2,9 @@
 
 # contact me for help 
 
-http.wa.me/254104882369
+https://wa.me/qr/5DVSYY6E3JQHP1
+
++254104882369/+254720254797
 
 ## do not clone this repo 
 
