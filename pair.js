@@ -77,28 +77,28 @@ var randomItem = selectRandomItem(items);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
                         let md = "HUNTER-XMD~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*ᎻᎬᏞᏞϴ ᎻႮΝͲᎬᎡ-ХᎷᎠ ႮՏᎬᎡՏ! 👋🏻* 
+                        let desc = `*ᎻᎬᏞᏞϴ ႮՏᎬᎡՏ! 👋🏻* 
 
 > Do not share your session id with your gf 😂.
 
- * ͲᎻᎪΝᏦ ᎽϴᎡ ҒϴᎡ ႮՏᏆΝᏀ ᎻႮΝͲᎬᎡ-ХᎷᎠ 🚩* 
+ * ͲᎻᎪΝᏦ ᎽϴᎡ ҒϴᎡ ႮՏᏆΝᏀ GLEN 🚩* 
 
 > ᎫϴᏆΝ ᎷᎽ ᏟᎻᎪΝΝᎬᏞ :- ⤵️
  
-https://whatsapp.com/channel/0029VbAKbSjBA1ep4NkKGd1Y
+https://whatsapp.com/channel/0029Vb6cfYr1Hspv5Das1m1X
 
 ᎠϴΝͲ ҒϴᏀᎬͲ Ͳϴ ҒϴᎡᏦ ᎡᎬᏢϴ ⬇️
 
-https://github.com/Obedweb/Hunter-Xmd1
+https://github.com/ELIJAH-Ombogo/elijah
 
-> *© Powered BY ϴᏴᎬᎠ ͲᎬᏟᎻ 🖤*`; 
+> *© Powered BY ELIJAH ͲᎬᏟᎻ 🖤*`; 
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "ϴᏴᎬᎠ ͲᎬᏟᎻ",
-thumbnailUrl: "https://files.catbox.moe/c82aaa.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029VbAKbSjBA1ep4NkKGd1Y",
+title: "GLEN",
+thumbnailUrl: "https://files.catbox.moe/dn82e9.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029Vb6cfYr1Hspv5Das1m1X",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -107,14 +107,14 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*Don't Share with anyone this code use for deploy KANGO-XMD*\n\n ◦ *Github:* https://github.com/OfficialKango/KANGO-XMD`;
+                            let desc = `*Don't Share with anyone this code use for deploy Glen*\n\n ◦ *Github:* https://github.com/ELIJAH-Ombogo/elijah`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "ᎻႮΝͲᎬᎡ-ХᎷᎠ",
-thumbnailUrl: "https://files.catbox.moe/c82aaa.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029VbAKbSjBA1ep4NkKGd1Y",
+title: "GLEN",
+thumbnailUrl: "https://files.catbox.moe/dn82e9.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029Vb6cfYr1Hspv5Das1m1X",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
