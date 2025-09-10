@@ -75,30 +75,30 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "GLEN" + string_session;
+                        let md = "HUNTER-XMD~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*HELLO GLEN USER! 🥰* 
+                        let desc = `*ᎻᎬᏞᏞϴ ᎻႮΝͲᎬᎡ-ХᎷᎠ ႮՏᎬᎡՏ! 👋🏻* 
 
-> Do not share your session id with your gf ;only shere to your deployer.
+> Do not share your session id with your gf 😂.
 
- *thank you using glen* 
+ *ͲᎻᎪΝᏦ ᎽϴᎡ ҒϴᎡ ႮՏᏆΝᏀ ᎻႮΝͲᎬᎡ-ХᎷᎠ   🚩* 
 
 > ᎫϴᏆΝ ᎷᎽ ᏟᎻᎪΝΝᎬᏞ :- ⤵️
  
-https://whatsapp.com/channel/0029Vb6cfYr1Hspv5Das1m1X
+https://whatsapp.com/channel/0029VbAKbSjBA1ep4NkKGd1Y
 
 ᎠϴΝͲ ҒϴᏀᎬͲ Ͳϴ ҒϴᎡᏦ ᎡᎬᏢϴ⬇️
 
-https://github.com/ELIJAH-Ombogo/elijah
+https://github.com/Obedweb/Hunter-Xmd1
 
-> *© Powered BY elijah🔰*`; 
+> *© Powered BY ϴᏴᎬᎠ ͲᎬᏟᎻ 🖤*`; 
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "ELIJAH",
-thumbnailUrl: "https://files.catbox.moe/dn82e9.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029Vb6cfYr1Hspv5Das1m1X",
+title: "ϴᏴᎬᎠ ͲᎬᏟᎻ",
+thumbnailUrl: "https://files.catbox.moe/c82aaa.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029VbAKbSjBA1ep4NkKGd1Y",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -107,14 +107,14 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*Don't Share with anyone this code use for deploy glen*\n\n ◦ *Github:* https://github.com/ELIJAH-Ombogo/elijah`;
+                            let desc = `*Don't Share with anyone this code use for deploy KANGO-XMD*\n\n ◦ *Github:* https://github.com/OfficialKango/KANGO-XMD`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "ELIJAH",
-thumbnailUrl: "https://files.catbox.moe/dn82e9.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029Vb6cfYr1Hspv5Das1m1X",
+title: "ᎻႮΝͲᎬᎡ ХᎷᎠ",
+thumbnailUrl: "https://files.catbox.moe/c82aaa.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029VbAKbSjBA1ep4NkKGd1Y",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
