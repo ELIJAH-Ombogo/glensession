@@ -1,6 +1,8 @@
 # GLEN PAIR-WEB-SC
 
-# contact me for help +254104882369
+# contact me for help 
+
+http.wa.me/254104882369
 
 ## do not clone this repo 
 
@@ -12,3 +14,5 @@ https://whatsapp.com/channel/0029Vb6cfYr1Hspv5Das1m1X
 # botrepo
 
 https://github.com/ELIJAH-Ombogo/elijah
+
+# powered by elijah 
